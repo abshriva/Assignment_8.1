@@ -1,0 +1,51 @@
+<!--This program will explain how to use local storage in Browser
+
+Author:Abhishek
+
+
+Kindly reset Local storage & try
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/Register.css">
+</head>
+<body>
+     <header></header>
+     <!--main content of Form-->
+     <div id="content"> 
+     <h2 style="color: #42647F">Enter the System</h2> 
+
+     <h5 style="color: slategrey">It is necessary to login in your Account in order to signup for a course</h5>
+     <!--Registeration side in HTML Form -->
+     <div id="register">
+     <span class="greyText">ARE YOU NEW?</span>
+     <span class="blueText">REGISTER</span>
+     <br>
+     <br>
+     <input id="nm" type="text" placeholder="UserName" value=""/><br><br><br>
+     <input id="box" type="email" placeholder="Email" value=""/><br><br><br>
+     <input id="pw" type="password" placeholder="Password" value=""/><br><br><br>
+     <input id="pw" type="password" placeholder="Confirm Password" value=""/><br><br><br>
+     <input type="submit" value="Register" id="button" onClick="store()">
+     </div>
+     <!--Login side in HTML Form -->
+     <div id="login">
+     <span class="common">ALREADY A STUDENT? LOGIN</span>
+     <br>
+     <br>
+     <input id="userName" type="text" placeholder="UserName" value=""/><br><br><br> 
+      <input id="userPw" type="password" placeholder="Password" value=""/><br><br><br>
+      <input id="chk" type="checkbox"> Remember me?
+      <input type="submit" value="Login" id="loginbutton" onClick="check()"><br><br>
+      <a href="https://www.w3schools.com" style="margin-left: 270px;color: white;">Forgot Password?</a>
+     </div>
+     <div class="clear"></div>
+     </div>
+     <script src="../Scripts/register.js"></script> 
+</body>
+</html>

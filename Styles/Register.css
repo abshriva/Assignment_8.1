@@ -1,0 +1,139 @@
+header
+{
+    
+    width: 900px;
+    height: 50px;
+    background-color: grey;
+}
+
+p
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: royalblue;
+    margin-left: 30px;
+}
+
+#register
+{
+    width: 400px;
+    height: 330px;
+    margin-left: 25px;
+    float: left;
+    clear: left;
+}
+
+#login
+{
+    width: 400px;
+    height: 330px;
+    margin-left: 30px;
+    background-color:#42647F;
+    float:left;
+  
+    
+}
+
+#content
+{
+    width: 900px;
+    height: 450px;
+    background-color:whitesmoke;
+    clear: both;
+    margin-left: 5px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#box
+{
+     margin-left: 30px;
+     width:320px;
+     height:25px;
+     border-color:firebrick;
+}
+
+#nm
+{
+    margin-left: 30px;
+     width:320px;
+     height:25px;
+     border-color:firebrick;
+}
+#pw
+{
+    margin-left: 30px;
+     width:320px;
+     height:25px;
+     border-color:firebrick;
+}
+
+#userName
+{
+     margin-left: 30px;
+     width:320px;
+     height:25px;
+}
+
+#userPw
+{
+     margin-left: 30px;
+     width:320px;
+     height:25px;
+    
+}
+#button
+{
+    height: 30px;
+    width: 120px;
+    color:#42647F;
+    margin-left: 235px;
+    border-color:#42647F;
+    
+}
+#loginbutton
+{
+    height:30px;
+    width: 80px;
+    color:#42647F;
+    margin-left: 270px;
+    border-color:darkorange; 
+    color: white;
+    font-weight: bold;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#chk
+{
+    margin-left: 30px;
+}
+
+.greyText
+    {
+        color:slategrey;
+        margin-left: 30px;
+        font-weight:bold;
+        margin-top: 250px;
+    }
+.blueText
+    {
+        color:#42647F;
+        font-weight:bold;
+        margin-top: 250px;
+        font-weight: bold;
+        
+    }
+
+.common
+    {
+        color:white;
+        margin-left: 30px;
+        font-weight:bold;
+        margin-top: 250px;
+    }
